@@ -1,0 +1,30 @@
+/* General Changes */
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+/* -- General Changes -- */
+
+/* Classes */
+.header-wrapper {
+	width: 100%;
+	min-height:75px;
+	background-color: #ccc;
+	text-align: center;
+	padding-top: 17px;
+}
+
+/*-- Classes --*/
+
+/*Canvas Styling*/
+
+canvas {
+	margin: 0 auto;
+	display: block;
+}
+
+/*--Canvas Styling--*/
