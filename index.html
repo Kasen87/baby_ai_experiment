@@ -46,7 +46,7 @@
 	<link rel="stylesheet" href="assets/css/game-setup.css" />
 
 	<!-- Lea Verou's prefixfree (http://leaverou.github.io/prefixfree/), lets you use un-prefixed properties in your CSS files -->
-	<script src="assets/js/libs/prefixfree.min.js"></script>
+	<!--<script src="assets/js/libs/prefixfree.min.js"></script>-->
 
 	<!-- This is a minimized, base version of Modernizr. (http://modernizr.com)
 		  You will need to create new builds to get the detects you need. -->
@@ -73,26 +73,29 @@
 		<nav></nav>
 	</header>
 
-	<article>
+	<article class="col-lg-9">
 		<canvas id="gameCanvas">
 		Please upgrade your browser to support HTML5.<br />
 		One recommendation is to install the latest Chrome or Firefox.
 		</canvas>
 	</article>
 
-			<aside></aside>
+	<aside class="col-lg-3">
+		<h3>What's Happening?</h3>
+		<div id="gameProcess">
+			
+		</div>
+	</aside>
 
 	<footer></footer>
 
 <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>-->
 <!--<script>window.jQuery || document.write("<script src='assets/js/libs/jquery-2.2.2.min.js'>\x3C/script>")</script>-->
 
 <!-- this is where we put our custom functions -->
 <!-- don't forget to concatenate and minify for production -->
-<script src="assets/js/constants.js"></script>
-<script src="assets/js/game.js"></script>
-<script>$(document).ready(initPage);</script>
+<script data-main="assets/js/app" src="assets/js/libs/require.js"></script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.

@@ -19,12 +19,53 @@ h1 {
 }
 
 /*-- Classes --*/
+.col-lg-1 { width: 8%; display: inline-block; margin: 0 1%; }
+.col-lg-2 { width: 16%; display: inline-block; margin: 0 1%; }
+.col-lg-3 { width: 24%; display: inline-block; margin: 0 1%; }
+.col-lg-4 { width: 32%; display: inline-block; margin: 0 1%; }
+.col-lg-5 { width: 40%; display: inline-block; margin: 0 1%; }
+.col-lg-6 { width: 48%; display: inline-block; margin: 0 1%; }
+.col-lg-7 { width: 56%; display: inline-block; margin: 0 1%; }
+.col-lg-8 {  width: 62%; display: inline-block; margin: 0 1%; }
+.col-lg-9 {  width: 70%; display: inline-block; margin: 0 1%; }
+.col-lg-10 { width: 78%; display: inline-block; margin: 0 1%; }
+.col-lg-11 { width: 88%; display: inline-block; margin: 0 1%; }
+.col-lg-12 { width: 96%; display: inline-block; margin: 0 1%; }
 
 /*Canvas Styling*/
 
 canvas {
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
+  border: 1px solid #fff;
 }
 
-/*--Canvas Styling--*/
+article {
+  border: 2px solid #aaa;
+  height: 75vh;
+  text-align: center;
+  background-color: #999;
+  overflow: hidden;
+}
+
+aside {
+  border: 2px solid #ccc;
+  background-color: #ddd;
+  height: 75vh;
+  padding: 15px;
+}
+
+aside > h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#gameProcess {
+  border: 1px solid #fff;
+  height: calc(100% - 30px);
+  background-color: #eee;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
