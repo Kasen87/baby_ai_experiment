@@ -1,31 +1,9 @@
 //---------
 //System Values
 //---------
-
-var STAGE_WIDTH = 800,
-	STAGE_HEIGHT = 500,
-	TIME_PER_FRAME = 33,
-	GAME_FONTS = "bold 20px sans-serif",
-	STAGE_GRID = 20,
-	GRID_STROKE = "#000",
-	GRID_STROKE_WIDTH = 0.5;
-
-var COUNTER_X = 10,
-	COUNTER_Y = 25;
-
-
 //----------
 //Baby Values
 //----------
-
-var BABY_AGE = 0,
-	BABY_REACH = 1,
-	BABY_SIZE = 15,
-	BABY_SPEED = 0.1,
-	BABY_HEALTH = 10;
-	BABY_COLOR = "#ffdab9"
-
-
 //------------
 //Room Values
 //------------

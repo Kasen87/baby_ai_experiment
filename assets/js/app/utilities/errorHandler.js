@@ -16,10 +16,10 @@ define( function( ) {
   }
 
   _createError = ( code ) => {
-    var error = _ERROR_CODES[code];
+    let error = _ERROR_CODES[code];
     let errorText = '';
     
-    for( [key, value] in error){
+    for( [key, value] in error) {
       errorText += key+ ": " + value + "\n"; 
     }
 
